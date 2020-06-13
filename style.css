@@ -81,19 +81,19 @@ form a{
 	background: #1477a4;
   	transform:scale(1.2);
 }
-/*--------------------------------cadastro-----------------------------------------------*/
-
+/*--------------------------------cadastro-Caminhao e ----------------------------------------------*/
+/*teste*/
 /*body {
    
-	background-repeat: no-repeat;
-	 background-image: linear-gradient(to bottom right, #3facf9, #001f58f2);
+  background-repeat: no-repeat;
+   background-image: linear-gradient(to bottom right, #3facf9, #001f58f2);
     height: 700px;
 }*/
 
 
 /*teste*/
 .container {
-    width: 30%;
+    width: 48%;
     background-color: white;
     margin: auto;
     margin-top: 42px;
@@ -137,4 +137,6 @@ form a{
     background-color: #2c2ce0;
 }
 
-
+ footer{
+  background-image: linear-gradient(to bottom right, #034db1f2, #000000);
+ }
