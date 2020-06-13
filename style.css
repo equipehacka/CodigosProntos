@@ -1,5 +1,5 @@
-/*--------------* altera todos os itens da pagina desde o Body-------------*/
-*{
+
+body{
 	background: #b5b5b5;
     background-image: linear-gradient(to bottom right, #034db1f2, #000000);
     /*---------------independente da tela sempre vai pegar uma altura de  100%-------------*/
