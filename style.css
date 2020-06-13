@@ -1,8 +1,12 @@
-body{
+/*--------------* altera todos os itens da pagina desde o Body-------------*/
+*{
 	background: #b5b5b5;
-	background-image: linear-gradient(to bottom right, #034db1f2, #000000);
-	font-family: 'Roboto', sans-serif;
-
+    background-image: linear-gradient(to bottom right, #034db1f2, #000000);
+    /*---------------independente da tela sempre vai pegar uma altura de  100%-------------*/
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    /*---------------para não repetir o background-------------*/
+    background-repeat: no-repeat;
 }
 
 form{
