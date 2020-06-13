@@ -1,0 +1,140 @@
+body{
+	background: #b5b5b5;
+	background-image: linear-gradient(to bottom right, #034db1f2, #000000);
+	font-family: 'Roboto', sans-serif;
+	overflow: hidden;
+}
+
+form{
+	margin: 400px 40px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.imagem{
+	display: inherit;
+}
+
+.imagem-senha{
+	display: inherit;
+}
+
+form img{
+	height: 20px;
+	display: inline;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+form p {
+	margin: 5px 0 240px;
+	font-size: 18px;
+	color: white;
+}
+
+form a{
+	color:#ff9308;
+	font-weight: bold; 
+}
+
+.input-padrao{
+  display: flex; 
+  margin: 0 0 30px;
+  padding: 10px 25px;
+  width: 80%;
+  border: none;
+  border-bottom:2px solid white;
+  text-align: center;
+  background: transparent;
+  outline: none;
+}
+
+#botao{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 10vh;
+	margin: 50px 50px 0;
+	border:none;
+}
+
+.login {
+	font-size: 25px;
+	font-weight: bold;
+	padding: 15px 20px;
+	background: #1998D1;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.login:hover{
+	background: #1477a4;
+  	transform:scale(1.2);
+}
+/*--------------------------------cadastro-----------------------------------------------*/
+
+/*body {
+   
+	background-repeat: no-repeat;
+	 background-image: linear-gradient(to bottom right, #3facf9, #001f58f2);
+    height: 700px;
+}*/
+
+
+/*teste*/
+.container {
+    width: 30%;
+    background-color: white;
+    margin: auto;
+    margin-top: 42px;
+    box-shadow: 0px 4px 16px #455B632E;
+    padding: 19px;
+    border-radius: 14px;
+}
+.container h3 {
+    padding: 10px;
+    text-align: center;
+    font-size: 22pt;
+    color: #647370;
+}
+.container .w33{
+    width: 41%;
+}
+.container input {
+    border: 1px solid #dadada;
+    width: 91%;
+    height: 23px;
+    margin: auto;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+.btn-salvar {
+    margin-top: 11px;
+    width: 96%;
+    margin-left: 6px;
+    height: 41px;
+    border: none;
+    background-color: #4977ef;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 7px;
+}
+
+.btn-salvar:hover{
+    background-color: #2c2ce0;
+}
+
+
