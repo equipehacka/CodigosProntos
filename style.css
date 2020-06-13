@@ -1,12 +1,8 @@
-
 body{
 	background: #b5b5b5;
     background-image: linear-gradient(to bottom right, #034db1f2, #000000);
-    /*---------------independente da tela sempre vai pegar uma altura de  100%-------------*/
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    /*---------------para não repetir o background-------------*/
-    background-repeat: no-repeat;
 }
 
 form{
@@ -141,4 +137,41 @@ form a{
 
  footer{
   background-image: linear-gradient(to bottom right, #034db1f2, #000000);
+ }
+ /*--------------------------------------------------------------------------------------------------*/
+ .container-group-btn{
+   width: 50%;
+   height: 700px;
+   margin: auto;
+ }
+
+ .container-group-btn h4 {
+    text-align: center;
+    font-size: 28pt;
+    color: white;
+}
+.btn-group {
+    cursor: pointer;
+    width: 66%;
+    margin: auto;
+    padding-top: 100px;
+}
+.container-group-btn .btn-group button {
+    background-color:#2ab5f3;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 81px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+ .container-group-btn .btn-group button{
+     background-color: #1998D1;
+     cursor: pointer;
+ }
+
+ .container-group-btn .btn-group button a{
+     text-decoration: none;
+     font-size: 16pt;
+     color: white;
  }
