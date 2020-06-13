@@ -2,7 +2,7 @@ body{
 	background: #b5b5b5;
 	background-image: linear-gradient(to bottom right, #034db1f2, #000000);
 	font-family: 'Roboto', sans-serif;
-	overflow: hidden;
+
 }
 
 form{
@@ -93,7 +93,7 @@ form a{
 
 /*teste*/
 .container {
-    width: 48%;
+    width: 40%;
     background-color: white;
     margin: auto;
     margin-top: 42px;
@@ -108,7 +108,7 @@ form a{
     color: #647370;
 }
 .container .w33{
-    width: 41%;
+    width: 42%;
 }
 .container input {
     border: 1px solid #dadada;
